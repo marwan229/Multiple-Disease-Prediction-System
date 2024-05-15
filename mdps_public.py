@@ -28,16 +28,16 @@ with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
-                          ['Pneumonia classification','Diabetes Prediction',
+                          ['Pneumonia Prediction','Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Parkinsons Prediction'],
                           icons=['Lungs','activity','heart','person'],
                           default_index=0)
     
 # Diabetes Prediction Page
-if (selected == 'Pneumonia classification'):
+if (selected == 'Pneumonia Prediction'):
     
-   st.title('Pneumonia classification')
+   st.title('Pneumonia Prediction')
 
    # set header
    st.header('Please upload a chest X-ray image')
